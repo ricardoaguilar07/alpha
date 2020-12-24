@@ -6,6 +6,12 @@ public class CRUDTest {
 		System.out.println("Esto es para el commit 2");
 
 		System.out.println("Esto es para el commit 3");
+
+		System.out.println(devolviendoMensaje());
+	}
+
+	public String devolviendoMensaje(){
+		return "Entre bien";
 	}
 
 }
