@@ -8,10 +8,16 @@ public class CRUDTest {
 		System.out.println("Esto es para el commit 3");
 
 		System.out.println(devolviendoMensaje());
+
+		System.out.println(imprimeAlgo());
 	}
 
 	public String devolviendoMensaje(){
 		return "Entre bien";
+	}
+
+	public void imprimeAlgo(){
+		System.out.println("Imprimiendo algo...");
 	}
 
 }
